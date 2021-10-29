@@ -16,3 +16,13 @@ $ mwdb version
 
 Complete docs can be found here: https://mwdblib.readthedocs.io/en/latest/
 
+## Development install
+
+Want to support the development or review a pull request? Install from source:
+
+```
+git clone https://github.com/CERT-Polska/mwdblib.git
+cd mwdblib
+git checkout your_branch  # optional, if not master
+pip install .[cli]  # install package along with the cli module
+```
